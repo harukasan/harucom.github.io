@@ -23,12 +23,18 @@ description: >-
   Harucom, a Heuristically Accessible Ruby Computer
 baseurl: ""
 url: "https://harucom.org"
-og_image: "/assets/harucom_ogp.jpg"
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/harucom_ogp.jpg
 github_username: harukasan
 
 # Build settings
 theme: minima
 plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Navigation: only show root-level pages (not /ja/ duplicates)
 header_pages:
