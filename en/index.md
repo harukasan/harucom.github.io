@@ -38,6 +38,11 @@ For detailed specifications of the Harucom Board, see the following page.
 ## Learn about Harucom
 
 Harucom is an open-source project.
+The board data is licensed under CERN-OHL-P v2, and the source code is licensed under the MIT License.
 
 - [Harucom-board](https://github.com/harukasan/harucom-board/)
 - [Harucom-OS](https://github.com/harukasan/harucom-os/)
+
+I will be giving a talk about this project at RubyKaigi 2026.
+
+- [Building a Standalone Ruby Programming Environment - RubyKaigi 2026](https://rubykaigi.org/2026/presentations/harukasan.html)

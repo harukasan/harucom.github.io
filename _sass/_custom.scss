@@ -423,10 +423,39 @@ html[data-theme="dark"] {
 .hero-home {
   padding: 64px 24px;
   text-align: center;
-  background-color: var(--color-bg-secondary);
+  background: linear-gradient(135deg, #0a5c2a 0%, #0d7a3a 30%, #10914a 60%, #1aad5c 100%);
   border-radius: 16px;
   margin: 24px auto;
   max-width: $content-width;
+  color: #e0f5e8;
+  position: relative;
+  overflow: hidden;
+
+  // PCB trace pattern overlay
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      // diagonal accent
+      repeating-linear-gradient(45deg,
+        transparent,
+        transparent 78px,
+        rgba(255, 255, 255, 0.03) 78px,
+        rgba(255, 255, 255, 0.03) 80px);
+    pointer-events: none;
+  }
+
+  // Solder pad dots
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle 2px, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-position: 20px 20px;
+    pointer-events: none;
+  }
 }
 
 .hero-home--with-image {
@@ -466,6 +495,8 @@ html[data-theme="dark"] {
   font-size: 36px;
   line-height: 44px;
   margin-bottom: 16px;
+  color: #ffffff;
+  position: relative;
 
   @media screen and (max-width: 600px) {
     font-size: 28px;
@@ -476,8 +507,9 @@ html[data-theme="dark"] {
 .hero-home__description {
   font-size: 18px;
   line-height: 28px;
-  color: var(--color-text-secondary);
+  color: rgba(255, 255, 255, 0.8);
   margin: 0;
+  position: relative;
 }
 
 // ============================================================
