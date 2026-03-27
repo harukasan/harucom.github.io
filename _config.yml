@@ -23,6 +23,7 @@ description: >-
   Harucom, a Heuristically Accessible Ruby Computer
 baseurl: ""
 url: "https://harucom.org"
+og_image: "/assets/harucom_ogp.jpg"
 github_username: harukasan
 
 # Build settings
