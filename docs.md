@@ -10,6 +10,7 @@ ref: docs
 
 - [基本的な使い方](/docs/getting-started/)
 - [Harucom Board](/docs/harucom-board/)
+- [再起動する](/docs/restart/)
 - [ファイルの入出力](/docs/files/)
 
 ## リファレンス

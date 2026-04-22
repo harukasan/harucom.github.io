@@ -172,5 +172,6 @@ Open the editor again to check if the content is correct.
 
 ## Next Steps
 
+* [Restart](../restart/)
 * [File I/O](../files/)
 * [Programming Reference](../reference/)
