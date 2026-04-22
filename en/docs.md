@@ -10,6 +10,7 @@ ref: docs
 
 - [Getting Started](/en/docs/getting-started/)
 - [Harucom Board](/en/docs/harucom-board/)
+- [Harucom Bundle with acrylic panels](/en/docs/harucom-bundle/)
 - [Restart](/en/docs/restart/)
 - [File I/O](/en/docs/files/)
 
